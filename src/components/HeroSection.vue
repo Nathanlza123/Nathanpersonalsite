@@ -10,7 +10,7 @@
       </div>
       <div class="hero-text">
         <h1 class="name">Nathan Li</h1>
-        <p class="tagline">在自我探索的路上，记录成长与觉察</p>
+        <p class="tagline">一个世界上独一无二的个体</p>
       </div>
     </div>
     <div class="scroll-hint">
@@ -60,20 +60,14 @@
   height: 220px;
   border-radius: 50%;
   object-fit: cover;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05), 0 20px 60px rgba(0, 212, 255, 0.15), 0 0 80px rgba(123, 47, 247, 0.1);
   border: 2px solid rgba(255, 255, 255, 0.1);
-  box-shadow:
-    0 0 0 1px rgba(255, 255, 255, 0.05),
-    0 20px 60px rgba(0, 212, 255, 0.15),
-    0 0 80px rgba(123, 47, 247, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .photo:hover {
   transform: scale(1.05);
-  box-shadow:
-    0 0 0 1px rgba(255, 255, 255, 0.1),
-    0 25px 70px rgba(0, 212, 255, 0.25),
-    0 0 100px rgba(123, 47, 247, 0.15);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1), 0 25px 70px rgba(0, 212, 255, 0.25), 0 0 100px rgba(123, 47, 247, 0.15);
 }
 
 .hero-text {
@@ -108,7 +102,7 @@
 
 .scroll-text {
   font-size: 0.875rem;
-  color: rgba(255, 255, 255, 0.4);
+  color: #999;
 }
 
 .scroll-arrow {
